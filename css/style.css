@@ -1,0 +1,204 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+ .main{
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background:url(../images/homepage-option17-banner-bg.jpg) ;
+    background-size: cover;
+    padding-left: 55rem;
+    padding-bottom: 5rem;
+    background-position: center;
+background-attachment: fixed;
+}
+span{
+    color: red;
+    font-size: 1rem;
+}
+
+
+
+
+header .navbar .nav-link, header .navbar .nav-link.active{
+        color: white;
+}
+header .navbar-nav > .nav-item{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8rem;
+    font-weight: 500;
+    margin: 0 1rem;
+
+}
+.v-sep{
+    position: relative;
+    padding: 0 1.3rem;
+}
+.v-sep::before{
+    content: "";
+    position: absolute;
+    left:0 ;
+    top: 50%;
+    height: 16px ;
+    border-left: 1px solid rgba(255,255,255,0.2);
+    top: calc(50%-8px);
+}
+#hero .carousel-item{
+    height:100vh;
+    overflow: hidden;
+}
+#hero .carousel-item img{
+    object-fit: cover;
+    height: 100%;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 30px;
+    font-weight: 600;
+    margin-top: 7rem;
+    
+}
+.par{
+    display: flex;
+    justify-content: center;
+   padding-left: 5rem;
+   opacity: 80%;
+}
+.content{
+    display: flex;
+    justify-content: center;
+    flex-direction:row ;
+    flex-wrap: wrap;
+}
+.card{
+    background-color: white;
+    width: 21.22em ;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 15px;
+}
+.info{
+    text-align: center;
+}
+
+.icon{
+   text-align: center;
+ background-image: url(../images/220_F_268712736_pYacy8wSc6CtXj1YzRMOOrSFZwsaJd0z.jpg);
+   padding-bottom: 4rem;
+   background-repeat: no-repeat;
+   background-position:center ;
+   background-size:6rem;
+  color: white;
+   margin-bottom: 1rem;
+}
+
+.container{
+margin-top: 6rem;
+float: right;
+display: flex;
+justify-content: baseline;
+
+
+}
+.col{
+
+    height:33.4rem;
+    padding:3rem;
+    color: black;
+    width: 20.9rem;
+   
+    
+    
+}
+.col p,h3{
+    opacity: 60%;
+    font-size:medium;
+    text-align: center;
+    
+   
+}
+.col h2{
+    color: white;
+    font-size:medium;
+    text-align: center;
+   
+}
+.links{
+    text-align:center ;
+    margin-left: 5rem;
+    word-spacing:4rem ;
+    margin-top: 5rem;
+   text-decoration: none;
+   color: black;
+    opacity: 70%;
+    
+}
+.row img{
+     max-width: 100%;
+     margin-top:4rem ;
+     padding-left: -1rem;
+     padding-bottom:-7rem;
+}
+.btn{
+    color: white;
+    background-color: black;
+    text-shadow: 3rem;
+}
+.row img{
+    width:19rem;
+    max-width: 100%;
+    padding-bottom:  5rem;
+
+}
+.row p ,h1{
+    text-align: center;
+}
+.row p{
+    opacity: 60%;
+}
+.details{
+    margin-right:20rem;
+    font-size:0.6rem ;
+    
+}
+.train{
+   margin-top:7rem;
+float: right;
+display: flex;
+justify-content: baseline;
+}
+.details h1{
+    color: white;
+}
+.details p{
+    color: rgba(184, 171, 171, 0.8);
+    font-size: medium;
+    
+    
+}
+.main{
+    display:flex ;
+    flex-wrap:wrap ;
+    overflow:hidden ;
+    scroll-behavior: auto;
+    background-image:url(../images/homepage-option17-banner-bg.jpg) fixed no-repeat top right;
+   
+}
+.hm{
+    display:flex;
+    overflow:hidden ;
+    width: 35%;
+    max-width:100% ;
+    flex:1 25% ;
+    font-size:small ;
+}
+.two{
+    display: flex;
+}
