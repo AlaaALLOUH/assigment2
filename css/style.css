@@ -14,8 +14,6 @@
     background-size: cover;
     padding-left: 55rem;
     padding-bottom: 5rem;
-    background-position: center;
-background-attachment: fixed;
 }
 span{
     color: red;
@@ -79,57 +77,44 @@ header .navbar-nav > .nav-item{
 }
 .card{
     background-color: white;
-    width: 21.22em ;
-    border-radius: 10px;
     padding: 30px;
     margin: 15px;
+    margin-left: 4rem;
+    margin-bottom: 8rem;
 }
 .info{
     text-align: center;
 }
+.info p{
+   font-size:0.9rem ;
+   opacity:0.7rem ;
+}
+.info h3{
+    font-size: 1rem;
+     
+}
+.icons{
+    margin-left:-4rem ;
+    margin-top:3rem;
+}
 
 .icon{
    text-align: center;
- background-image: url(../images/220_F_268712736_pYacy8wSc6CtXj1YzRMOOrSFZwsaJd0z.jpg);
-   padding-bottom: 4rem;
-   background-repeat: no-repeat;
-   background-position:center ;
-   background-size:6rem;
   color: white;
-   margin-bottom: 1rem;
+  background-color:red ;
+  width: 80px;
+  height:80px ;
+  border-radius: 100%;
+  margin-left: 4rem;
+  margin-bottom: 3rem;
+}
+.train{
+    margin-top:8rem;
+    margin-bottom:6rem ;
 }
 
-.container{
-margin-top: 6rem;
-float: right;
-display: flex;
-justify-content: baseline;
 
 
-}
-.col{
-
-    height:33.4rem;
-    padding:3rem;
-    color: black;
-    width: 20.9rem;
-   
-    
-    
-}
-.col p,h3{
-    opacity: 60%;
-    font-size:medium;
-    text-align: center;
-    
-   
-}
-.col h2{
-    color: white;
-    font-size:medium;
-    text-align: center;
-   
-}
 .links{
     text-align:center ;
     margin-left: 5rem;
@@ -140,40 +125,14 @@ justify-content: baseline;
     opacity: 70%;
     
 }
-.row img{
-     max-width: 100%;
-     margin-top:4rem ;
-     padding-left: -1rem;
-     padding-bottom:-7rem;
-}
+
 .btn{
     color: white;
     background-color: black;
     text-shadow: 3rem;
 }
-.row img{
-    width:19rem;
-    max-width: 100%;
-    padding-bottom:  5rem;
 
-}
-.row p ,h1{
-    text-align: center;
-}
-.row p{
-    opacity: 60%;
-}
-.details{
-    margin-right:20rem;
-    font-size:0.6rem ;
-    
-}
-.train{
-   margin-top:7rem;
-float: right;
-display: flex;
-justify-content: baseline;
-}
+
 .details h1{
     color: white;
 }
@@ -199,6 +158,88 @@ justify-content: baseline;
     flex:1 25% ;
     font-size:small ;
 }
+.hm h3 p{
+    opacity:0.9rem ;
+}
 .two{
     display: flex;
+    
 }
+.res{
+    text-align:left;
+    margin-top:2rem;
+    margin-bottom:3rem ;
+}
+.res h3{
+    color:black;
+    fill: opacity 1.2em;;
+    font-size:0.1rem ;
+    text-align:left ;
+    
+    
+}
+.res p{
+    opacity:0.7 ;
+}
+.pa {
+    margin-left:-8rem ;
+    text-align:left ;
+}
+.pa h3{
+    color:black ;
+    font-size: 1.2rem;
+    
+}
+.pa p{
+    text-align:left;
+}
+.pa1{
+    margin-left:-8rem ;
+}
+.pa1 h3{
+    font-size:1.2rem ;
+}
+.pa1 p{
+    text-align:left ;
+}
+.pa2{
+    margin-left: -8rem;
+}
+.pa2 h3{
+    font-size:1.2rem ;
+}
+.pa2 p{
+    text-align:left;
+}
+.ico{
+    opacity: 1.2rem;
+}
+.mo{
+    margin-top: 6rem;
+
+}
+.mo1{
+    
+    padding-top: 7rem;
+    padding-left: 8rem;
+
+}
+.mo h3{
+    color: red;
+    text-align: left;
+    font-size:  1.2rem; ;
+}
+.mo1 h2{
+    text-align: left;
+    padding-right:10rem;
+
+}
+.mo1 p{
+    text-align: left;
+}
+.link{
+    font-size:0.9rem ;
+    color:black;
+    
+}
+
