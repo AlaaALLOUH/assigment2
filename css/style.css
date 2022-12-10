@@ -3,7 +3,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    scroll-behavior: smooth;
     overflow-x: hidden;
 }
 
@@ -68,7 +67,6 @@ header .navbar-nav > .nav-item{
     background-color: white;
     padding: 30px;
     margin: 15px;
-    margin-left: 4rem;
     margin-bottom: 8rem;
 }
 .info{
@@ -83,7 +81,6 @@ header .navbar-nav > .nav-item{
      
 }
 .icons{
-    margin-left:-4rem ;
     margin-top:3rem;
 }
 
@@ -140,7 +137,6 @@ header .navbar-nav > .nav-item{
    
 }
 .hm{
-    display:flex;
     overflow:hidden ;
     width: 35%;
     max-width:100% ;
@@ -150,10 +146,7 @@ header .navbar-nav > .nav-item{
 .hm h3 p{
     opacity:0.9rem ;
 }
-.two{
-    display: flex;
-    
-}
+
 .res{
     text-align:left;
     margin-top:2rem;
@@ -323,7 +316,7 @@ button{
     outline: none !important;
 }
 button:hover{
-    background: #fff;
+    
         border-color: #fff;
         color: #232323;
         text-decoration: none;
